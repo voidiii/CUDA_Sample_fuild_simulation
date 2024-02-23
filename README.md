@@ -1,8 +1,8 @@
-# particles - Particles
+# Fuild simulation based on CUDA example: Particles
 
 ## Description
 
-This sample uses CUDA to simulate and visualize a large set of particles and their physical interaction.  Adding "-particles=<N>" to the command line will allow users to set # of particles for simulation.  This example implements a uniform grid data structure using either atomic operations or a fast radix sort from the Thrust library
+This sample original ly uses CUDA to simulate and visualize a large set of particles and their physical interaction. I personally turned it into a fuild simulation based on particles as a method to learn about fuild simulation and CUDA programming.
 
 ## Key Concepts
 
